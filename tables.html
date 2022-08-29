@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tables</title>
+    <style>
+        th,td{
+            border: 1px solid red;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <caption>student marks</caption>
+        <thead>
+            <tr>
+            <th>srl:number</th>
+            <th>names</th>
+            <th>class</th>
+            <th>marks</th>
+            <th>percentage</th>
+            <th>total pass percentage</th>
+        </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>siva</td>
+                <td>12</td>
+                <td>100</td>
+                <td>100</td>
+                <td rowspan="3"></td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>siv</td>
+                <td>13</td>
+                <td>99</td>
+                <td>99</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>si</td>
+                <td>14</td>
+                <td>80</td>
+                <td>80</td>
+            </tr>
+            <tr><td colspan="2">
+                total
+
+            </td></tr>
+        </tbody>
+    </table>
+</body>
+</html>
